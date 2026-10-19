@@ -15,7 +15,7 @@ No build, package installation, external fonts or remote JavaScript is required 
 - Simplified the roadmap: consistent horizontal milestones above 900px and a vertical timeline on smaller screens; location badges moved out of the third milestone.
 - Kept service content visible without accordion controls, prices after value and scope, and prominent Telegram/email actions.
 - Removed retired component styles and unused runtime code; corrected heading levels and added a keyboard skip link.
-- Fixed menu closing on Escape/outside click, reduced-motion behaviour, counter lifecycle, language metadata and local-file fallbacks.
+- Preserved keyboard focus on the language selector after a language change. Fixed menu closing on Escape/outside click, reduced-motion behaviour, counter lifecycle, language metadata and local-file fallbacks.
 - Extracted the photo from the HTML. The HTML is about 259 KB instead of 2.7 MB.
 
 ## Checks passed
